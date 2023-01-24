@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Gallery Filter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="box-border	font-sans">
+    <section class="portfolio">
+        <div class="containerr max-w-screen-xl	mx-auto">
+
+            <div class="row">
+                <div class="section-title text-center">
+                    <h1>Responsive Image Galley Filter</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="filter-button">
+                    <ul id="filter-btns">
+                        <li data-target="all">All</li>
+                        <li data-target="camping">camping</li>
+                        <li data-target="hiking">Hiking</li>
+                        <li data-target="kayak">Kayak</li>
+                        <li data-target="mountain">Mountain</li>
+                        <li data-target="nature">Nature</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="portfolio-gallery">
+
+                    <div data-target="camping" class="item">
+                        <div class="inner">
+                            <img class="w-1/4" src="./Assets/camping/camping1.jpg" alt="Camping">
+                        </div>
+                    </div>
+                    <div data-target="camping" class="item">
+                        <div class="inner">
+                            <img class="w-1/4" src="./Assets/camping/camping2.jpg" alt="Camping">
+                        </div>
+                    </div>
+                    <div data-target="camping" class="item">
+                        <div class="inner">
+                            <img class="w-1/4" src="./Assets/camping/camping3.jpg" alt="Camping">
+                        </div>
+                    </div>
+                    <div data-target="camping" class="item">
+                        <div class="inner">
+                            <img class="w-1/4" src="./Assets/camping/camping4.jpg" alt="Camping">
+                        </div>
+                    </div>
+                    <div data-target="camping" class="item">
+                        <div class="inner">
+                            <img class="w-1/4" src="./Assets/camping/camping5.jpg" alt="Camping">
+                        </div>
+                    </div>
+                    <div data-target="camping" class="item">
+                        <div class="inner">
+                            <img class="w-1/4" src="./Assets/camping/camping6.jpg" alt="Camping">
+                        </div>
+                    </div>
+                    <div data-target="camping" class="item">
+                        <div class="inner">
+                            <img class="w-1/4" src="./Assets/camping/camping7.jpg" alt="Camping">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio{
+    padding: 100px 10px;
+}
+
+.section-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.section-title h1{
+    display: inline-block;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 5px;
+    position: relative;
+}
+
+.section-title h1:before{
+    content: '';
+    position: absolute;
+    height: 6px;
+    left: 30%;
+    right: 30%;
+    top: 50px;
+    bottom: 0px;
+    border-radius: 50%;
+    background-color: #febd01;
+}
+
