@@ -34,3 +34,44 @@
     background-color: #febd01;
 }
 
+
+.filter-button{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+
+#filter-btns{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+#filter-btns li{
+    font-weight: 500;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 8px;
+    cursor: pointer;
+    font-size: larger;
+
+}
+
+.active{
+    color: #febd01;
+}
+.active:hover{
+    border-bottom: 2px solid #febd01;
+    transition-duration: .5s;
+}
+
+.portfolio-gallery{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item{
+
+}
